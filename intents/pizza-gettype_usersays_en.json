@@ -1,0 +1,78 @@
+[
+  {
+    "id": "25a42dd3-3611-4eb3-ac65-caaa7d67e1ff",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "veggies",
+        "meta": "@pizza-type",
+        "alias": "pizza-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd6278a7-a9ae-4611-909c-923a048e0415",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "chicken",
+        "meta": "@pizza-type",
+        "alias": "pizza-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b420b06-8697-4e88-a9ac-9595c2393e0a",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "barbeque",
+        "meta": "@pizza-type",
+        "alias": "pizza-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d690fdcd-2d48-4c8d-8c7d-35c42e5ae1b8",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "pepperoni",
+        "meta": "@pizza-type",
+        "alias": "pizza-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "id": "4dbc580f-0a81-4da3-b65f-0c63e0907aba",
+  "name": "pizza-gettype",
+  "auto": true,
+  "contexts": [
+    "pizza-getsize"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-gettype",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fb0fc90b-7efc-4733-b613-243b239a5f0a",
+          "name": "pizza-type",
+          "required": false,
+          "dataType": "@pizza-type",
+          "value": "$pizza-type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Enter your type :",
+          "replies": [
+            "Pepperoni",
+            "Barbeque",
+            "Chicken",
+            "Veggies"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What kind of crust you want(thin, Hand-tossed, cheese)?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

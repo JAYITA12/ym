@@ -1,0 +1,73 @@
+{
+  "id": "a8b8b8e7-292a-46a2-89a2-bc9f8a2e4a92",
+  "name": "pizza-getcrust",
+  "auto": true,
+  "contexts": [
+    "pizza-gettype"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-getcrust",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d7948d7e-b1b7-43c8-b4e2-5f866c15b9c8",
+          "name": "pizza-crust",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "value": "$pizza-crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Choose your crust",
+          "replies": [
+            "Hand-tossed",
+            "Thin",
+            "cheesee"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you, Now we will get your particulars. Type Okay to continue."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
